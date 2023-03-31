@@ -15,7 +15,7 @@ def main_loop(study_duration):
 # Run the main loop
 while True:
     # Generate a random duration between 2 and 4 minutes (inclusive)
-    study_duration = random.randint(2, 4) #* 60
+    study_duration = random.randint(2, 4) * 60
 
     print(f"Study for {study_duration} seconds.") 
     time.sleep(study_duration)
